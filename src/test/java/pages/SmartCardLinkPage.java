@@ -1,14 +1,15 @@
 package pages;
 
 import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
 
-import java.sql.Driver;
 
 public class SmartCardLinkPage {
 
     public SmartCardLinkPage() {
-        PageFactory.initElements(Driver.getDriver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
+
 
 
 }
